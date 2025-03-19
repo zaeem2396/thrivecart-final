@@ -56,7 +56,7 @@ $basketItems = [
 
 $total = $basketService->getTotal($basketItems);
 echo $total; // 54.37 (Second R01 is half price)
-```
+
 
 | Total price  | Delivery charge
 |-------|-----------------------|
