@@ -14,9 +14,4 @@ class AppSetting extends Model
     {
         return self::where('key', $key)->value('value') ?? $default;
     }
-
-    public function scopeWhereKey(Builder $query, string $key): Builder
-    {
-        return $query->where('key', $key);
-    }
 }

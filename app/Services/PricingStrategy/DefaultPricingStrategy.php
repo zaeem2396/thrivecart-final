@@ -4,6 +4,7 @@ namespace App\Services\PricingStrategy;
 
 use App\Models\AppSetting;
 use App\Models\Product;
+use App\Services\PricingStrategy\PricingStrategyInterface;
 
 class DefaultPricingStrategy implements PricingStrategyInterface
 {
