@@ -66,7 +66,7 @@ echo $total; // 54.37 (Second R01 is half price)
 
 ## Steps to run this project
 ### 📌 Environment Variables
-<li>Copy the below credentials in .env file</li>
+
 | Key           | Value    |
 |--------------|---------|
 | `DB_CONNECTION` | `mysql` |
@@ -76,6 +76,7 @@ echo $total; // 54.37 (Second R01 is half price)
 | `DB_USERNAME`   | `root`  |
 | `DB_PASSWORD`   | `root`  |
 ```
+<li>Copy the below credentials in .env file</li>
 <li>Clone this repo</li>
 <li>Run docker compose up --build</li>
 <li>Run docker compose exec app bash to open terminal inside docker container</li>
